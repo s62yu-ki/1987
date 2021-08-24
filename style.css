@@ -178,3 +178,7 @@ section.spring img {
 .portfolio:hover {
     color: aquamarine;
 }
+
+.poster {
+    margin-top: 60px;
+}
