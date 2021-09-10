@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2, h3, p {
+    color:rgb(30, 40, 40);
+    font-weight: normal;
+    padding: 10px 0;
+}
+
+h4 {
+    color:rgb(40, 60, 60);
+}
+
+body {
+    background-image: url(images/sea.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(150, 236, 252, 0.7);
+    width: 100%;
+    height: 120px;
+    border-bottom: 10px dotted lightseagreen;
+    position: fixed;
+    margin: 0;
+    top: 0;
+}
+
+.header-left h1 {
+    padding: 30px 0 0 60px;
+    font-weight: normal;
+    color: darkslategray;
+}
+
+
+
+.header-right li {
+    list-style: none;
+    float: right;
+    background-color: skyblue;
+    margin: 0 10px 0 0;
+    border-radius: 7px;
+    border: 2px solid lightseagreen;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: beige;
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    border-radius: 7px;
+    padding-top: 7px;
+}
+
+.header-right a:hover {
+    background-color: bisque;
+    color: cadetblue;
+}  /* added  */
+
+.clear {
+    clear: both;
+}
+
+.whole-wrapper {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;    /* IE, Edge 対応 copy and paste */
+    scrollbar-width: none;       /* Firefox 対応 copy and paste */
+    min-height: 100vh; /*←最小の高さを100vhにする（画面一個分の高さ）*/
+    position: relative; /*←相対位置*/
+    padding-bottom: 20px; /*←footerの高さ←footer下の余白*/
+    box-sizing: border-box; /*←全て含めてmin-height:100vhに*/
+}
+
+.whole-wrapper::-webkit-scrollbar {  /* Chrome, Safari 対応 copy and paste*/
+    display:none;
+}
+
+.main-wrapper {
+    /* width: 1170px; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 130px 100px 0;
+    height: 100%;
+    padding: 60px;
+}
+
+.main-wrapper h2 {
+    padding: 40px 0 20px 0;
+    color: rgb(67, 67, 67);
+}
+
+.non-color {
+    background-color: transparent;
+}
+
+.spring {
+    margin-top: 60px;
+}
+
+/* article {
+    background-color: pink;
+} */
+
+section {
+    background-color:rgba(53, 187, 187, 0.5);
+    /* width: 1000px; */
+    border-radius: 6px;
+    margin: 20px auto;
+}
+
+.mail {
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 20px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.pageback {
+    align-self: center;
+    margin-top: 20px;
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    border-radius: 7px;
+    /* padding: 6px; */
+    text-shadow: 3px 3px rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-family: "HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO"
+}
+
+.pageback a {
+    font-size: 30px;
+}
+
+.pageback:active {
+    text-shadow: none;
+    position: relative;
+    top: 6px;
+}
+
+footer p.copyright {
+    margin-right: 20px;
+    align-self: flex-end;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.4);
+} 
+
+section.spring img {
+    width: 100%;
+}
+
+/* .header-right li {
+    list-style: none;
+    background-color: skyblue;
+    margin: 0 10px 0 0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.portfolio {
+    text-decoration: none;
+    color: seagreen;
+    font-size: 30px;
+}
+
+.portfolio:hover {
+    color: aquamarine;
+}
+
+.poster {
+    margin-top: 60px;
+}
+
+.header-right li.home {
+    background-color: pink;
+    border-radius: 7px;
+    border: 2px solid orchid;
+}
+
+.picturestitle {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.header-right li.opened {
+    background-color: lightseagreen;
+    border-radius: 7px;
+    border: 2px solid aquamarine;
+}
+
+.pictureblank {
+    margin-bottom: 50px;
+}
